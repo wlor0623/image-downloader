@@ -4,21 +4,19 @@
 </h1>
 
 <h2 align="center">
-  Browse and download images on the web
+  使用浏览器下午网络图片 
   <br />
   <br />
 </h2>
+欢迎如果您想了解有关如何使用此扩展的更多信息，请查看[用户指南]（USERGUIDE）
+如果你是一个对在本地运行扩展而不是从Chrome网络商店安装它感兴趣的开发人员，请继续阅读！
 
-Welcome! If you're here to learn more about how to use this extension check out the [User Guide](USERGUIDE)
-
-If you're a developer interested in running the extension locally instead of installing it from the Chrome Web Store - keep reading!
-
-## Local development
-1. First, install the dependencies:
+## 本地开发
+1. 首先，安装依赖项：
     ```bash
     npm install
     ```
-2. Then you can start the development server which watches for file changes automatically:
+2. 然后，您可以启动开发服务器，该服务器会自动监视文件更改：
     ```bash
     npm start
     ```
@@ -26,18 +24,17 @@ If you're a developer interested in running the extension locally instead of ins
     ```bash
     npm run build
     ```
-3. Open the extension list in your browser settings: [chrome://extensions](chrome://extensions)
-4. Enable **Developer mode**
-5. Click the **Load unpacked** button, navigate to the extension root folder and pick the `build` folder
-6. Enjoy!
+3. 在浏览器设置中打开扩展列表：[chrome://extensions](chrome://extensions)
+4.启用**开发者模式**
+5.单击**加载解包**按钮，导航到扩展根文件夹并选择“build”文件夹
+6.享受吧！
 
-## Test
-Run and watch tests related to locally changed files - useful during development:
+##测试
+运行并观察与本地更改的文件相关的测试-在开发过程中非常有用：
 ```bash
-npm test
+npm  test
 ```
-
-Or run all the tests without watching and generate a coverage report:
+或者在不观看的情况下运行所有测试并生成覆盖率报告：
 ```bash
 npm run test.all
 ```
