@@ -67,7 +67,7 @@ export const Images = ({
           setSelectedImages(checked ? visibleImages : []);
         }}
       >
-        Select all (${imagesToDownload.length} / ${visibleImages.length})
+        全选 (${imagesToDownload.length} / ${visibleImages.length})
       <//>
 
       ${visibleImages.map(

@@ -1,37 +1,35 @@
 import html from '../html.js';
 import { ExternalLink } from '../components/ExternalLink.js';
 
-const numberOfActiveUsers = '1,200,000+';
 const years = new Date().getFullYear() - 2012;
 
 export const SupportList = () => html`
   <p>
-    If you're one of the ${numberOfActiveUsers} people using this extension,
-    over the past${' '} ${years} years marketing companies have approached me
-    with offers to pay in exchange for <b>your private data</b> like:
+  您是使用此扩展的120多万人之一，
+  在过去的${''}${years}年里，广告公司一直在联系我
+  通过提供支付服务来交换<b>您的私人数据</b>如：
   </p>
 
   <ul>
-    <li>what websites you visit</li>
-    <li>when you visit them</li>
-    <li>where you visit them from</li>
+  <li>你访问了哪些网站</li>
+  <li>当你拜访他们时</li>
+  <li>你从哪里来拜访他们</li>
   </ul>
 
   <p>
-    And what do these companies think the value of your data is?
-    <b> 0.15¢ to 0.45¢ a month.</b>
-    <br />
-    Less than a penny! Do you think that's worth compromising your privacy and
-    trust for?
+  这些公司认为你的数据有什么价值？
+  <b>每月0.15到0.45美分</b>
+  <br/>
+  不到一分钱！你认为这值得牺牲你的隐私和隐私吗
+  信任？
   </p>
 
-  <p>My answer has always been a resounding <b>NO!</b></p>
+  <p>我的回答总是响亮的 <b>不</b></p>
 
   <p>
-    If you agree, please consider supporting this project so I can continue
-    working on it while keeping the extension <b>free</b>, <b>open-source</b>,
-    and <b>without targeted ads or tracking algorithms</b> - as it always has
-    been.
+  如果你同意，请考虑支持这个项目，这样我就可以继续维护下去。
+  在使用它的同时保持扩展<b>免费</b>且<b>开源</b>，
+  而且<b>没有目标广告或跟踪算法</b>——从始至终
   </p>
 
   <div class="tab-list">
@@ -52,8 +50,7 @@ export const SupportList = () => html`
         <//>
 
         <p>
-          Give recurring monthly donations and participate in our Discord
-          community!
+        每月定期捐款，参与我们的讨论社区
         </p>
       </div>
     </div>
@@ -160,7 +157,7 @@ export const SupportList = () => html`
   </div>
 
   <p>
-    The source code can be found on GitHub:${' '}
+    源码地址 GitHub:${' '}
     <${ExternalLink}
       href="https://github.com/PactInteractive/image-downloader"
     />

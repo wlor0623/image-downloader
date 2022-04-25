@@ -22,7 +22,7 @@ export const AdvancedFilters = ({ options, setOptions }) => {
         </colgroup>
 
         <tr id="image_width_filter">
-          <td>Width:</td>
+          <td>宽度:</td>
 
           <td>
             <label
@@ -76,7 +76,7 @@ export const AdvancedFilters = ({ options, setOptions }) => {
         </tr>
 
         <tr id="image_height_filter">
-          <td>Height:</td>
+          <td>高度:</td>
 
           <td>
             <label
@@ -131,11 +131,11 @@ export const AdvancedFilters = ({ options, setOptions }) => {
       </table>
 
       <${Checkbox}
-        title="Only show images from direct links on the page; useful on sites like Reddit"
+        title="仅显示页面上直接链接的图像；在Reddit这样的网站上很有用"
         checked=${options.only_images_from_links === 'true'}
         onChange=${setCheckboxOption('only_images_from_links')}
       >
-        Only images from links
+      仅显示直链图像
       <//>
     </div>
   `;

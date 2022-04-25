@@ -16,7 +16,7 @@ export const OpenImageButton = ({ imageUrl, onClick, ...props }) => {
   return html`
     <button
       type="button"
-      title="Open in new tab"
+      title="从新标签页打开"
       style=${{ backgroundImage: `url("/images/open.svg")` }}
       onClick=${(e) => {
         chrome.tabs.create({ url: imageUrl, active: false });
@@ -38,7 +38,7 @@ export const DownloadImageButton = ({
   return html`
     <button
       type="button"
-      title="Download"
+      title="下载"
       style=${{ backgroundImage: `url("/images/download.svg")` }}
       onClick=${(e) => {
         actions.downloadImages([imageUrl], options);

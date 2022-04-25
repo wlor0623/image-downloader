@@ -168,8 +168,8 @@ const Popup = () => {
       <div style=${{ display: 'flex', alignItems: 'center', gap: '4px' }}>
         <input
           type="text"
-          placeholder="Filter by URL"
-          title="Filter by parts of the URL or regular expressions."
+          placeholder="按URL筛选"
+          title="按URL或正则表达式的部分进行筛选。"
           value=${options.filter_url}
           style=${{ flex: '1' }}
           onChange=${({ currentTarget: { value } }) => {
@@ -187,7 +187,7 @@ const Popup = () => {
         <button
           id="toggle_advanced_filters_button"
           class=${options.show_advanced_filters === 'true' ? '' : 'collapsed'}
-          title="Toggle advanced filters"
+          title="切换高级过滤器"
           onClick=${() => {
             setOptions((options) => ({
               ...options,
@@ -201,7 +201,7 @@ const Popup = () => {
 
         <button
           id="open_options_button"
-          title="Options"
+          title="选项"
           onClick=${() => chrome.runtime.openOptionsPage()}
         >
           <img src="/images/cog.svg" />
@@ -236,8 +236,8 @@ const Popup = () => {
     >
       <input
         type="text"
-        placeholder="Save to subfolder"
-        title="Set the name of the subfolder you want to download the images to."
+        placeholder="保存到子文件夹"
+        title="设置要将图像下载到的子文件夹的名称。"
         value=${options.folder_name}
         onChange=${({ currentTarget: input }) => {
           const savedSelectionStart = removeSpecialCharacters(
@@ -259,8 +259,8 @@ const Popup = () => {
       html`
         <input
           type="text"
-          placeholder="Rename files"
-          title="Set a new file name for the images you want to download."
+          placeholder="重命名"
+          title="为要下载的图像设置新文件名。"
           value=${options.new_file_name}
           onChange=${({ currentTarget: input }) => {
             const savedSelectionStart = removeSpecialCharacters(

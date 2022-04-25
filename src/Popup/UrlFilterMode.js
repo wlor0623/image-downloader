@@ -2,47 +2,47 @@ import html from '../html.js';
 
 export const UrlFilterMode = (props) => html`
   <select ...${props}>
-    <option value="normal" title="A plain text search">
-      Text
+    <option value="normal" title="纯文本搜索">
+      文本
     </option>
 
     <option
-      value="wildcard"
-      title="You can also use these special symbols:
-* → zero or more characters
-? → zero or one character
-+ → one or more characters"
+      value="通配符"
+      title="您还可以使用以下特殊符号：
+      * → 零个或多个字符
+      ? → 零或一个字符
+      + → 一个或多个字符"
     >
       Wildcard
     </option>
 
     <option
-      value="regex"
-      title=${`Regular expressions (advanced):
-[abc] → A single character of: a, b or c
-[^abc] → Any single character except: a, b, or c
-[a-z] → Any single character in the range a-z
-[a-zA-Z] → Any single character in the range a-z or A-Z
-^ → Start of line
-$ → End of line
-A → Start of string
-z → End of string
-. → Any single character
-s → Any whitespace character
-S → Any non-whitespace character
-d → Any digit
-D → Any non-digit
-w → Any word character (letter, number, underscore)
-W → Any non-word character
- → Any word boundary character
-(...) → Capture everything enclosed
-(a|b) → a or b
-a? → Zero or one of a
-a* → Zero or more of a
-a+ → One or more of a
-a{3} → Exactly 3 of a
-a{3,} → 3 or more of a
-a{3,6} → Between 3 and 6 of a`}
+      value="正则表达式"
+      title=${`正则表达式（高级）：
+      [abc]→ A、b或c的单个字符
+      [^abc]→ 除a、b或c以外的任何单个字符
+      [a-z]→ a-z范围内的任何单个字符
+      [a-zA-Z]→ a-z或a-z范围内的任何单个字符
+      ^ → 起跑线
+      $ → 行尾
+      A.→ 字符串开头
+      Z→ 结束
+      . → 任何单个字符
+      s→ 任何空格字符
+      s→ 任何非空白字符
+      D→ 任何数字
+      D→ 任何非数字
+      W→ 任意单词字符（字母、数字、下划线）
+      W→ 任何非单词字符
+       → 任何单词边界字符
+      (...) → 捕获所有封闭的东西
+      （a | b）→ a或b
+      A.→ 零分或一分
+      a*→ 零个或多个
+      a+→ 一个或多个
+      a{3}→ 正好三个
+      a{3，}→ 3个或更多的
+      a{3,6}→ 3到6天之中`}
     >
       Regex
     </option>

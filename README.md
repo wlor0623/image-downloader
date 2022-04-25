@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img src="images/icon_48.png" alt="Image Downloader logo" height="40" valign="middle" />
-  &nbsp;Image Downloader
+  <img src="images/icon_48.png" alt="图片下载器 logo" height="40" valign="middle" />
+  &nbsp;图片下载器
 </h1>
 
 <h2 align="center">

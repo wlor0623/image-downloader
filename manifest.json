@@ -1,6 +1,6 @@
 {
-  "name": "Image Downloader",
-  "description": "Browse and download images on the web",
+  "name": "图片下载器",
+  "description": "批量下载网络图片",
   "version": "3.3.2",
   "minimum_chrome_version": "72",
   "manifest_version": 2,

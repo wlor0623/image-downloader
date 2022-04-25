@@ -1,4 +1,4 @@
-🟦 Image Downloader
+🟦 图片下载器
 ━━━━━━━━━━
 If you want to download many images at once, with this extension you can:
 - Explore images on the current page
@@ -13,12 +13,12 @@ Note: if you haven't set a default download directory you will have to choose th
 ❓ FAQs
 ━━━━
 💭 Why does this extension need access to all my site data?
-In order to extract images from a web page, Image Downloader needs to be able to read all the content on that web page when you open the popup. No data leaves your computer. For more details check out our Privacy Policy: https://pactinteractive.github.io/image-downloader
+In order to extract images from a web page, 图片下载器 needs to be able to read all the content on that web page when you open the popup. No data leaves your computer. For more details check out our Privacy Policy: https://pactinteractive.github.io/image-downloader
 
 💭 Why did this extension download smaller images than I expected? Why did it miss some images?
-Image Downloader can only extract the images currently visible on the page. Those may sometimes be smaller thumbnails of the full-resolution images you'd expect to see when you click on a photo (e.g. in Facebook albums). In addition, some websites like Instagram have carousels with multiple images, but only load a few at a time to save bandwidth.
+图片下载器 can only extract the images currently visible on the page. Those may sometimes be smaller thumbnails of the full-resolution images you'd expect to see when you click on a photo (e.g. in Facebook albums). In addition, some websites like Instagram have carousels with multiple images, but only load a few at a time to save bandwidth.
 
-We're looking into adding such capabilities to Image Downloader in the future. If you need this kind of functionality right now, consider looking for an extension that downloads images from the specific website you're interested in (e.g. Facebook).
+We're looking into adding such capabilities to 图片下载器 in the future. If you need this kind of functionality right now, consider looking for an extension that downloads images from the specific website you're interested in (e.g. Facebook).
 
 📝 Change Log
 ━━━━━━━
